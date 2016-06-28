@@ -1,0 +1,71 @@
+<apex:page sidebar="false">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" />
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<style type="text/css">
+ .container h1{
+  color: #78be20;
+ }
+
+ .container  h2{
+  color: #003768;
+ }
+ 
+ .container .btn-primary {
+  color: #fff;
+  background-color: #0098db;
+  border-color: #2e6da4;
+}
+ 
+</style>
+
+
+<div class="jumbotron">
+ <div class="container">
+  <h1>Grid for Salesforce User Guide</h1>
+  <p>Grid for Salesforce is a 100% native Salesforce application that extends the power of Salesforce by significantly reducing the time and effort required to manage data in Salesforce. By eliminating the excessive navigation and scrolling involved in loading and updating bulk records, the Grid dramatically improves productivity and adoption. <strong>The Grid can also be customized to meet your business’s unique processes and needs.</strong></p>
+  <p><a class="btn btn-info btn-lg active" href="http://www.configero.com/products/configero-grid-salesforce" role="button">Learn more »</a></p>
+ </div>
+</div>
+<div class="container">
+ <!-- Example row of columns -->
+ <div class="row">
+  <div class="col-md-4">
+   <h2>Product Features</h2>
+   <ul>
+    <li>100% native Salesforce.com application</li>
+    <li>Load 50,000+ records in 20 seconds</li>
+    <li>Dynamic multi-column filtering</li>
+    <li>Powerful multi-field query functionality</li>
+    <li>In-line &amp; mass editing</li>
+    <li>One-click multi-record business process automation</li>
+    <li>Column aggregation functions</li>
+    <li>Chatter collaboration</li>
+    <li>Export to CSV</li>
+    <li>Works against any object schema without modification</li>
+    <li>Supports record type, dependent and multi-select pick lists</li>
+   </ul>
+   <p><a class="btn btn-info active" href="http://www.configero.com/products/configero-grid-salesforce" role="button">Learn more »</a></p>
+  </div>
+  <div class="col-md-4">
+   <h2>User Guide</h2>
+   <p>The Configero Grid for Salesforce gives users the power to dynamically search, filter and update thousands of records in a single, intuitive screen without ever leaving the tool.</p>
+   <p><a class="btn btn-info active" href="http://www.configero.com/salesforce-apps/configero-grid/configero-grid-salesforce-user-guide" role="button">Full User Guide »</a></p>
+  </div>
+  <div class="col-md-4">
+   <h2>Help Videos</h2>
+   <p>Click on the Playlist menu on the video below to browse all help videos.</p>
+   <iframe width="350" height="197" src="https://www.youtube.com/embed/videoseries?list=PLWNq6HpDcIr5HngDmGxkpEcarT1z_sa8K" frameborder="0" allowfullscreen="true"></iframe>
+   <p><a class="btn btn-info active" href="https://www.youtube.com/playlist?list=PLWNq6HpDcIr5HngDmGxkpEcarT1z_sa8K" role="button">Watch more »</a></p>
+  </div>
+ </div>
+ <hr />
+ <footer>
+  <PowerLoader:Footer />
+ </footer>
+</div>
+
+</apex:page>

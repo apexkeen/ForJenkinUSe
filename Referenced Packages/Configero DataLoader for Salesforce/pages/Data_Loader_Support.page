@@ -1,0 +1,66 @@
+<apex:page sidebar="false">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" />
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<style type="text/css">
+ .container h1{
+  color: #78be20;
+ }
+
+ .container  h2{
+  color: #003768;
+ }
+ 
+ .container .btn-primary {
+  color: #fff;
+  background-color: #0098db;
+  border-color: #2e6da4;
+}
+ 
+</style>
+
+
+<div class="jumbotron">
+ <div class="container">
+  <h1>Data Loader for Salesforce User Guide</h1>
+  <p>The Configero Data Loader for Salesforce is a native, platform web application for importing thousands of records into Salesforce. Using the power of our grid technology, users can now dynamically filter records by any custom or standard object to see a list of relevant records available for mass editing and updating before loading data into Salesforce.</p>
+  <p><a class="btn btn-info btn-lg active" href="http://www.configero.com/products/data-loader-salesforce" role="button">Learn more �</a></p>
+ </div>
+</div>
+<div class="container">
+ <!-- Example row of columns -->
+ <div class="row">
+  <div class="col-md-4">
+   <h2>Installation</h2>
+   <p>Before using the DataLoader, make sure you add the following url to the Remote Site Settings list <small>(Setup->Administration Setup->Security Control->Remote Site Settings)</small></p>
+   <ul>
+    <li>https://powerloader.[Server].visual.force.com</li>
+   </ul>
+   <p>Where [Server] is your specific Salesforce instance server. You can find it in your browser address bar, for example if your Salesforce URL is https://na8.salesforce.com Then your server is na8, and you need to add the following to the Remote Site Settings:</p>
+   <ul>
+    <li>https://powerloader.na8.visual.force.com</li>
+   </ul>
+   <p><a class="btn btn-info active" id="remote-site-setttings" href="/0rp/e?SiteName=Configero%20Data%20Loader&EndpointUrl=https://powerloader.[Server].visual.force.com&DescriptionField=Replace [Server] with your specific Salesforce instance server. You can find it in your browser address bar, for example if your Salesforce URL is https://na8.salesforce.com Then your server is na8, example: https://powerloader.na8.visual.force.com" role="button">Do it!</a></p>
+  </div>
+  <div class="col-md-4">
+   <h2>User Guide</h2>
+   <p>With the Configero Data Loader, you can filter, insert, update, upsert, or delete up to 50,000 records in a single, intuitive screen without having to manually export data to Excel for manipulation. Configero's Data Loader is system-administrator friendly, reducing the time it takes to load and make mass updates to data.</p>
+   <p><a class="btn btn-info active" href="http://www.configero.com/salesforce-apps/data-loader/data-loader-salesforce-user-guide" role="button">Full User Guide �</a></p>
+  </div>
+  <div class="col-md-4">
+   <h2>Help Videos</h2>
+   <p>Click on the Playlist menu on the video below to browse all help videos.</p>
+   <iframe width="350" height="197" src="https://www.youtube.com/embed/videoseries?list=PLWNq6HpDcIr5CcBuAHQbqjr23gfouChG7" frameborder="0" allowfullscreen="true"></iframe>
+   <p><a class="btn btn-info active" href="https://www.youtube.com/playlist?list=PLWNq6HpDcIr5CcBuAHQbqjr23gfouChG7" role="button">Watch more �</a></p>
+  </div>
+ </div>
+ <hr />
+ <footer>
+ <c:Footer />
+ </footer>
+</div>
+
+</apex:page>

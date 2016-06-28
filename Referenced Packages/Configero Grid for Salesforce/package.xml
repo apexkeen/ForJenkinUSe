@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Configero Grid for Salesforce</fullName>
+    <apiAccessLevel>Unrestricted</apiAccessLevel>
+    <namespacePrefix>PowerGrid</namespacePrefix>
+    <types>
+        <members>PowerGrid</members>
+        <members>TestMethods</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>PowerGrid</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>Grid_Support</members>
+        <members>PowerGrid</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>GridPagePreferenceTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Grid</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Grid_Page_Preference__c.Preferences__c</members>
+        <members>Grid_Page_Preference__c.URL__c</members>
+        <members>Grid_Page_Preference__c.Uniq__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Grid_Page_Preference__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Grid</members>
+        <members>Grid_Support</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Grid</members>
+        <name>Document</name>
+    </types>
+    <types>
+        <members>Grid_Page_Preference__c-Grid Page Preference Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>AdminGrid</members>
+        <name>StaticResource</name>
+    </types>
+    <version>36.0</version>
+</Package>
