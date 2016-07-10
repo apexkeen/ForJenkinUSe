@@ -1,0 +1,26 @@
+<project name="Aetna Newdev Sandbox"  basedir="." xmlns:sf="antlib:com.salesforce">
+	
+	<!-- Get all settings like Server Path, username and passwords from "build.properties" file -->
+    <property file="build.properties"/>
+    <property environment="env"/> 
+	<!-- Sequence 1 - Get All information from Source, Retrieve the contents into Src directory -->
+	<target name="DVFetch"> 
+	
+	  <sf:retrieve username="${sf2.username}"
+				   password="${sf2.password}"
+				   serverurl="${sf2.serverurl}"
+				   retrieveTarget="C:\Users\shekhar01\Documents\ANTs\src"
+				   unpackaged="C:\Users\shekhar01\Documents\ANTs\src\package.xml"
+				   />
+	 
+ 
+		</target>
+	<target name="DVDeploy"> 
+      <sf:deploy username="${sf3.username}" 
+				 password="${sf3.password}" 
+				 serverurl="${sf3.serverurl}" 
+				 deployroot="Src" >
+				
+       </sf:deploy>
+    </target>
+</project>
